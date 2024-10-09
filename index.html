@@ -355,6 +355,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         });
     });
     </script>
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- Google tag (gtag.js) --&gt;
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-33XZ15DKHM&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag(&#39;js&#39;, new Date());
+
+gtag(&#39;config&#39;, &#39;G-33XZ15DKHM&#39;);
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div&gt;Order your items here&lt;/div&gt;
+&lt;button&gt; View Items&lt;/button&gt;
+&lt;script&gt;
+gtag(&quot;event&quot;, &quot;view_item_list&quot;, {
+item_list_id: &quot;related_products&quot;,
+item_list_name: &quot;Related products&quot;,
+items: [
+// If someone purchases more than one item,
+// you can add those items to the items array
+{
+item_id: &quot;SKU_12345&quot;,
+item_name: &quot;Stan and Friends Tee&quot;,
+affiliation: &quot;Google Merchandise Store&quot;,
+coupon: &quot;SUMMER_FUN&quot;,
+discount: 2.22,
+index: 0,
+
+item_brand: &quot;Google&quot;,
+item_category: &quot;Apparel&quot;,
+item_category2: &quot;Adult&quot;,
+item_category3: &quot;Shirts&quot;,
+item_category4: &quot;Crew&quot;,
+item_category5: &quot;Short sleeve&quot;,
+item_list_id: &quot;related_products&quot;,
+item_list_name: &quot;Related Products&quot;,
+item_variant: &quot;green&quot;,
+location_id: &quot;ChIJIQBpAG2ahYAR_6128GcTUEo&quot;,
+price: 10.01,
+quantity: 3
+}]
+});
+&lt;/script&gt;
+&lt;/body&gt;
 </body>
 </html>
 
